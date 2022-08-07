@@ -4,12 +4,15 @@ cffi==1.15.1
 charset-normalizer==2.1.0
 cryptography==37.0.4
 defusedxml==0.7.1
+dj-database-url==1.0.0
 Django==4.0.6
 django-extensions==2.2.5
+gunicorn==20.1.0
 idna==3.3
 MarkupSafe==2.1.1
 oauthlib==3.2.0
 Pillow==9.2.0
+psycopg2-binary==2.9.3
 pycparser==2.21
 PyJWT==2.4.0
 pyOpenSSL==22.0.0
@@ -22,4 +25,5 @@ social-auth-app-django==5.0.0
 social-auth-core==4.3.0
 sqlparse==0.4.2
 urllib3==1.26.11
-Werkzeug==2.2.1
+Werkzeug==0.16.1
+whitenoise==6.2.0
